@@ -84,7 +84,10 @@ BuildRequires: libXau-devel
 %endif
 
 # indirectly requires lesstif or openmotif and X libs
+# Not available on RHEL 8?
+%if 0%{?rhel} != 8
 BuildRequires: xbae-devel
+%endif
 
 # for patchy build scripts
 BuildRequires: tcsh
