@@ -1437,6 +1437,10 @@ touch --no-create %{_datadir}/icons/hicolor || :
 %endif
 
 %changelog
+* Sat Nov 11 2020 Nico Kadel-Garcia <nkdel@gmail.com> 2006
+- Repack for RHEL 7
+- Correct malformed dates in changelog
+
 * Wed May 05 2010 Jon Ciesla <limb@jcomserv.net> 2006-35
 - Apply debian cernlib 2006.dfsg.2-14 patchset.
 
