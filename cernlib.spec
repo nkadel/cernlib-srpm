@@ -1438,7 +1438,7 @@ touch --no-create %{_datadir}/icons/hicolor || :
 %endif
 
 %changelog
-* Sat Nov 11 2020 Nico Kadel-Garcia <nkdel@gmail.com> 2006
+* Sat Nov 21 2020 Nico Kadel-Garcia <nkdel@gmail.com> 2006
 - Repack for RHEL 7
 - Correct malformed dates in changelog
 
