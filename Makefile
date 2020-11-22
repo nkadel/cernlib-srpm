@@ -7,10 +7,10 @@
 LANG=C
 
 #
-MOCKS+=epel-8-x86_64
+#MOCKS+=epel-8-x86_64
 MOCKS+=epel-7-x86_64
 
-REPOBASEDIR:=`/bin/pwd`/../awxrepo
+REPOBASEDIR:=`/bin/pwd`/repo
 
 SPEC := `ls *.spec | head -1`
 
